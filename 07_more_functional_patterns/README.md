@@ -122,11 +122,7 @@ blah = id
 addAndDrop = const . (1 +)
 reverseMkTuple = flip (,)
 reverseTuple = uncurry (flip (,))
-
 ```
-
-
-
 
 ## Logging all the warnings with `-Wall`
 ```haskell
